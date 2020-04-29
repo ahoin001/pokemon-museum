@@ -63,6 +63,14 @@ const PokeCard = (props) => {
             hoverColor = `rgb(231,197,103)`
         } else if (pokemon.types.split(', ')[0] === 'poison') {
             hoverColor = `rgb(160,38,163)`
+        } else if (pokemon.types.split(', ')[0] === 'fighting') {
+            hoverColor = `rgb(192,48,40)`
+        } else if (pokemon.types.split(', ')[0] === 'psychic') {
+            hoverColor = `rgb(255,84,140)`
+        } else if (pokemon.types.split(', ')[0] === 'dragon') {
+            hoverColor = `rgb(131,83,249)`
+        } else if (pokemon.types.split(', ')[0] === 'rock') {
+            hoverColor = `rgb(183,159,56)`
         }
     }
 

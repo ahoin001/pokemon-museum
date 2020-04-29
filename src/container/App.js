@@ -16,7 +16,7 @@ function App() {
     const fetchedPokemonList = async () => {
 
       // ? First get List of Pokemon
-      await axios.get('https://pokeapi.co/api/v2/pokemon?offset=0&limit=50')
+      await axios.get('https://pokeapi.co/api/v2/pokemon?offset=0&limit=150')
         .then((pokemonListResponse) => {
 
           // console.log(`Response from pokemonAPI *********** : `, pokemonListResponse)
@@ -62,7 +62,10 @@ function App() {
 
     <div className="App">
 
-      <Search onChange={searchBarHandler} />
+      <Search 
+      onChange={searchBarHandler} 
+      placeholder={'Search Original 150...'}
+      />
 
       {filterdPokemonList &&
         <PokemonList pokemonList={filterdPokemonList} />

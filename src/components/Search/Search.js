@@ -1,16 +1,15 @@
 import React from 'react';
+import {SearchBar} from './SearchStyles'
 
 const Search = (props) => {
-
-
 
     return (
 
         <React.Fragment>
 
-            <input 
+            <SearchBar 
             type="search" 
-            placeholder="Search For Pokemon"
+            placeholder={props.placeholder}
             onChange={(e) => props.onChange(e)}
             />
 
