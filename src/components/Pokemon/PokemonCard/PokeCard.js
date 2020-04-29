@@ -122,6 +122,7 @@ const PokeCard = (props) => {
     //     }
     // }
 
+    // <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png`} alt={`Front of ${pokemon.name}`} />
 
     return (
 
@@ -130,7 +131,9 @@ const PokeCard = (props) => {
             {pokemon &&
                 <Styled.CardContainer alternate={hoverColor}>
                     <p>{pokemon.name.toUpperCase()}</p>
+                    
                     <img src={pokemon.sprite} alt={`Front of ${pokemon.name}`} />
+
                     <p>{pokemon.types.toUpperCase()}</p>
                 </Styled.CardContainer>
             }
