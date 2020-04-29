@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pokemon-museum/static/css/main.c5a5346f.chunk.css",
+    "main.js": "/pokemon-museum/static/js/main.1b816623.chunk.js",
+    "main.js.map": "/pokemon-museum/static/js/main.1b816623.chunk.js.map",
+    "runtime-main.js": "/pokemon-museum/static/js/runtime-main.742d91cc.js",
+    "runtime-main.js.map": "/pokemon-museum/static/js/runtime-main.742d91cc.js.map",
+    "static/js/2.cf8e2cad.chunk.js": "/pokemon-museum/static/js/2.cf8e2cad.chunk.js",
+    "static/js/2.cf8e2cad.chunk.js.map": "/pokemon-museum/static/js/2.cf8e2cad.chunk.js.map",
+    "index.html": "/pokemon-museum/index.html",
+    "precache-manifest.a2b032cf8cec275c824c5fbeb672f47c.js": "/pokemon-museum/precache-manifest.a2b032cf8cec275c824c5fbeb672f47c.js",
+    "service-worker.js": "/pokemon-museum/service-worker.js",
+    "static/css/main.c5a5346f.chunk.css.map": "/pokemon-museum/static/css/main.c5a5346f.chunk.css.map",
+    "static/js/2.cf8e2cad.chunk.js.LICENSE.txt": "/pokemon-museum/static/js/2.cf8e2cad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.742d91cc.js",
+    "static/js/2.cf8e2cad.chunk.js",
+    "static/css/main.c5a5346f.chunk.css",
+    "static/js/main.1b816623.chunk.js"
+  ]
+}
